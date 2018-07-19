@@ -16,10 +16,10 @@ Photo of test room
 
 # 3. Some results
 
-![alt text]("https://raw.githubusercontent.com/jburgues/Orebro3DSEN/master/img/raw signal.png" "Calibrated sensor signals")
+![alt text]("https://raw.githubusercontent.com/jburgues/Orebro3DSEN/master/img/raSignal.png" "Calibrated sensor signals")
 Calibrated sensor signals
 
-![alt text]("https://raw.githubusercontent.com/jburgues/Orebro3DSEN/master/img/temp humi.png" "Temperature and humidity")
+![alt text]("https://raw.githubusercontent.com/jburgues/Orebro3DSEN/master/img/tempHumi.png" "Temperature and humidity")
 Temperature and humidity in four locations of the room
 
 ![alt text](https://raw.githubusercontent.com/jburgues/Orebro3DSEN/master/img/windrose.png "Wind")
