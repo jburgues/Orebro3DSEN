@@ -16,3 +16,17 @@ Photo of test room
 
 # 3. Some results
 
+![alt text]("https://raw.githubusercontent.com/jburgues/Orebro3DSEN/master/img/raw signal.png" "Calibrated sensor signals")
+Calibrated sensor signals
+
+![alt text]("https://raw.githubusercontent.com/jburgues/Orebro3DSEN/master/img/temp humi.png" "Temperature and humidity")
+Temperature and humidity in four locations of the room
+
+![alt text](https://raw.githubusercontent.com/jburgues/Orebro3DSEN/master/img/windrose.png "Wind")
+Wind rose in the center of the room (height=1.3 m)
+
+![alt text](https://raw.githubusercontent.com/jburgues/Orebro3DSEN/master/img/meanMap.png "Mean map")
+Mean gas distribution at different timestamps
+
+![alt text](https://raw.githubusercontent.com/jburgues/Orebro3DSEN/master/img/boutsfreqMap.png "Bout freq map")
+Mean bout frequency map at different timestamps
