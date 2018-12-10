@@ -1,5 +1,6 @@
 # Orebro3DSEN
-Dataset and code of indoor gas dispersion experiments using a 3D grid of metal oxide semiconductor sensors.
+Dataset and code of indoor gas dispersion experiments using a 3D grid of metal oxide semiconductor sensors. This software is used in the following article: 
+Burgués J, Hernandez V, Lilienthal AJ, Marco S. 3D Gas Distribution with and without Artificial Airflow: An Experimental Study with a Grid of Metal Oxide Semiconductor Gas Sensors. InMultidisciplinary Digital Publishing Institute Proceedings 2018 (Vol. 2, No. 13, p. 911).
 
 # 1. Introduction
 Advances in gas distribution mapping and localization algorithms are hindered by the lack of experimental measurements over three-dimensional (3D) volumes. Such measurements are important to characterize gas dispersion patterns produced by different types of gas release and to extract robust estimators of source proximity. In this project, we provide code and data for studying gas dispersion of an evaporating chemical source in an indoor scenario, using a 3D MOX sensor network. The source was placed in several locations of the room, including variations in height, release rate and air flow profiles. The MOX sensors were calibrated in laboratory conditions to provide signals in concentration units. This is the first open access dataset using a 3D MOX sensor network, and it can be the basis to develop, validate, and compare new approaches related to gas sensing in complex environments. For example, we used this data to study the performance of source proximity estimators in 3D.
@@ -40,7 +41,7 @@ Table 1. List of experiments
 
 # 5. Code
 The file "wsn_lite.py" is the main file of the project. It contains a class "wsn" that provides functions for parsing and plotting the logs. It requires the file "log_wsn.py" to be in the same folder.
-The file "wsn_test.py" is an example of how to use the class "wsn". The 3D maps presented in Section 3 were done using MATLAB, due to limitations of matplotlib to perform such visualizations. The plots available in the current code are less nice.
+The file "wsn_test.py" is an example of how to use the class "wsn". The 3D maps presented in Section 3 were done using MATLAB, due to limitations of matplotlib to perform such visualizations. The plots available in the current code are therefore 2D plots.
 
 # 6. License
 The code and logs are licensed under the GNU General Public License v3.0
