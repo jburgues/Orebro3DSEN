@@ -35,7 +35,7 @@ Mean bout frequency map at different timestamps
 The folder /logs contains 10 csv files, corresponding to a subset of the experiments, which are described in Table 1.
 The meaning of the columns of the CSV file is indicated in the header. Basically, there is a timestamp, 27 concentration values (1 per MOX sensor), 4 temperature measurements, 4 humidity measurements, wind speed and wind direction.
 
-![alt text](https://raw.githubusercontent.com/jburgues/Orebro3DSEN/master/img/TableExperiments.png "List of experiments")
+![alt text](https://raw.githubusercontent.com/jburgues/Orebro3DSEN/master/img/TableExperiments.PNG "List of experiments")
 Table 1. List of experiments
 
 # 5. Code
