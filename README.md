@@ -32,8 +32,11 @@ Mean gas distribution at different timestamps
 Mean bout frequency map at different timestamps
 
 # 4. Logs
-The folder /logs contains 11 csv files, corresponding to a subset of the experiments. The filename indicates the date when the experiment was performed, and it can be used to find the description of the experiment (i.e. source location, air flow, conditions, etc.) in the table of Section 2 of this README file.
+The folder /logs contains 10 csv files, corresponding to a subset of the experiments, which are described in Table 1.
 The meaning of the columns of the CSV file is indicated in the header. Basically, there is a timestamp, 27 concentration values (1 per MOX sensor), 4 temperature measurements, 4 humidity measurements, wind speed and wind direction.
+
+![alt text](https://raw.githubusercontent.com/jburgues/Orebro3DSEN/master/img/TableExperiments.png "List of experiments")
+Table 1. List of experiments
 
 # 5. Code
 The file "wsn_lite.py" is the main file of the project. It contains a class "wsn" that provides functions for parsing and plotting the logs. It requires the file "log_wsn.py" to be in the same folder.
